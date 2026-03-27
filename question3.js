@@ -4,6 +4,6 @@ let laptop = {
   storage: "512GB",
 };
 
-let feature = laptop.ram;
+let feature = laptop["ram"];
 console.log(`The Ram is ${feature}`);
 console.log(laptop);
